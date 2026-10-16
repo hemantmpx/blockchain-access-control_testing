@@ -48,3 +48,8 @@ Start the development server
 ```bash
 npm start
 ```
+
+
+## Local configuration
+
+Copy `access-control-system/.env.example` to `access-control-system/.env` and set your own local credentials before running. The properties file reads the administrator key, database password, and Jasypt secret from the environment. Do not commit `.env` or real private keys.
